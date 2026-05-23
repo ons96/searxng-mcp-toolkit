@@ -15,6 +15,9 @@ INSTANCES_PATH = os.path.join(
 SEARCH_TIMEOUT = 15
 MAX_RESULTS = 5
 
+# session-level dead tracking: skip instances that errored on previous calls
+_dead = set()
+
 
 def load_chain():
     with open(INSTANCES_PATH) as f:
@@ -23,7 +26,13 @@ def load_chain():
         i for i in all_instances
         if i.get("category") in ("full-json", "html-only")
         and ".onion" not in i.get("url", "")
+        and i["url"] not in _dead
     ]
+    # sort: full-json first, then by speed (ascending) within each tier
+    working.sort(key=lambda i: (
+        0 if i.get("category") == "full-json" else 1,
+        i.get("response_ms", 99999)
+    ))
     return working
 
 
@@ -129,13 +138,12 @@ def handle(msg):
             if not query:
                 return rpc_error(rid, -32602, "Missing query")
             results = None
-            dead = set()
             for inst in load_chain():
-                if inst["url"] in dead:
-                    continue
                 r = try_instance(inst, query)
                 if r is None:
-                    dead.add(inst["url"])
+                    _dead.add(inst["url"])
+                    continue
+                if not r:
                     continue
                 results = r
                 break
