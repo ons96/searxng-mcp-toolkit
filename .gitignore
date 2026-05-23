@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.pem
+*id_rsa*
+*credentials*
+*.log
+secrets.yml

@@ -1,0 +1,41 @@
+name: SearXNG instance health check
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "searxng-instances.yaml"
+      - "test-searxng.py"
+      - "scrape-searxng.py"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Discover new instances
+        run: python3 scrape-searxng.py --merge --ci
+
+      - name: Test all instances
+        run: python3 test-searxng.py --ci
+
+      - name: Commit results
+        run: |
+          git config user.name "opencode-setup CI"
+          git config user.email "ci@opencode-setup"
+          git add -A
+          git diff --quiet && git diff --staged --quiet && echo "No changes" || git commit -m "auto: update instance data [ci skip]"
+          git push

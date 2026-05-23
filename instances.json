@@ -1,0 +1,1017 @@
+[
+  {
+    "url": "https://monocles.de/",
+    "category": "full-json",
+    "response_ms": 2258,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://serxng-deployment-production.up.railway.app/",
+    "category": "full-json",
+    "response_ms": 2638,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.mv-software.de/",
+    "category": "full-json",
+    "response_ms": 9042,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://www.cloudsearch.me/",
+    "category": "html-only",
+    "response_ms": 254,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://priv.au/",
+    "category": "html-only",
+    "response_ms": 439,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.unredacted.org/",
+    "category": "html-only",
+    "response_ms": 441,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.shreven.org/",
+    "category": "html-only",
+    "response_ms": 451,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.brihx.fr/",
+    "category": "html-only",
+    "response_ms": 538,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://copp.gg/",
+    "category": "html-only",
+    "response_ms": 638,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.tuxcloud.net/",
+    "category": "html-only",
+    "response_ms": 693,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.2b9t.xyz/",
+    "category": "html-only",
+    "response_ms": 711,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.sev.monster/",
+    "category": "html-only",
+    "response_ms": 712,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://failsearx.culturanerd.it/",
+    "category": "html-only",
+    "response_ms": 749,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://ooglester.com/",
+    "category": "html-only",
+    "response_ms": 757,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://find.xenorio.xyz/",
+    "category": "html-only",
+    "response_ms": 793,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.ankha.ac/",
+    "category": "html-only",
+    "response_ms": 834,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://etsi.me/",
+    "category": "html-only",
+    "response_ms": 839,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.ro/",
+    "category": "html-only",
+    "response_ms": 842,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.cups.moe/",
+    "category": "html-only",
+    "response_ms": 842,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.rhscz.eu/",
+    "category": "html-only",
+    "response_ms": 850,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.indst.eu/",
+    "category": "html-only",
+    "response_ms": 866,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://baresearch.org/",
+    "category": "html-only",
+    "response_ms": 872,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.tiekoetter.com/",
+    "category": "html-only",
+    "response_ms": 925,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.pereira.is/",
+    "category": "html-only",
+    "response_ms": 931,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.pi.vps.pw/",
+    "category": "html-only",
+    "response_ms": 949,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.blablalinux.be/",
+    "category": "html-only",
+    "response_ms": 955,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://s.trung.fun/",
+    "category": "html-only",
+    "response_ms": 959,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.tsmdt.de/",
+    "category": "html-only",
+    "response_ms": 971,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.internetsucks.net/",
+    "category": "html-only",
+    "response_ms": 978,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.mdosch.de/",
+    "category": "html-only",
+    "response_ms": 981,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.inetol.net/",
+    "category": "html-only",
+    "response_ms": 988,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.dresden.network/",
+    "category": "html-only",
+    "response_ms": 992,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.ox2.fr/",
+    "category": "html-only",
+    "response_ms": 1004,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.einfachzocken.eu/",
+    "category": "html-only",
+    "response_ms": 1019,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.minus27315.dev/",
+    "category": "html-only",
+    "response_ms": 1031,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.party/",
+    "category": "html-only",
+    "response_ms": 1080,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.im-in.space/",
+    "category": "html-only",
+    "response_ms": 1100,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.mbuf.net/",
+    "category": "html-only",
+    "response_ms": 1117,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.rhscz.eu/",
+    "category": "html-only",
+    "response_ms": 1155,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://seek.fyi/",
+    "category": "html-only",
+    "response_ms": 1159,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.namejeff.xyz/",
+    "category": "html-only",
+    "response_ms": 1179,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.abohiccups.com/",
+    "category": "html-only",
+    "response_ms": 1214,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.perennialte.ch/",
+    "category": "html-only",
+    "response_ms": 1217,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.zina.dev/",
+    "category": "html-only",
+    "response_ms": 1230,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://darmarit.org/searx",
+    "category": "html-only",
+    "response_ms": 1234,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.wdpserver.com/",
+    "category": "html-only",
+    "response_ms": 1313,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.undertale.uk/",
+    "category": "html-only",
+    "response_ms": 1351,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.femboy.ad/",
+    "category": "html-only",
+    "response_ms": 1362,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.deggo.fyi/",
+    "category": "html-only",
+    "response_ms": 1383,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.fmhy.net/",
+    "category": "html-only",
+    "response_ms": 1422,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.bladerunn.in/",
+    "category": "html-only",
+    "response_ms": 1460,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.rajimayur.me/",
+    "category": "html-only",
+    "response_ms": 1489,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.sapti.me/",
+    "category": "html-only",
+    "response_ms": 1490,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://opnxng.com/",
+    "category": "html-only",
+    "response_ms": 1496,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://nyc1.sx.ggtyler.dev/",
+    "category": "html-only",
+    "response_ms": 1503,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://paulgo.io/",
+    "category": "html-only",
+    "response_ms": 1516,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.mxchange.org/",
+    "category": "html-only",
+    "response_ms": 1538,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.serpensin.com/",
+    "category": "html-only",
+    "response_ms": 1545,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.seddens.net/",
+    "category": "html-only",
+    "response_ms": 1583,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.rowie.at/",
+    "category": "html-only",
+    "response_ms": 1593,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://sxng.violets-purgatory.dev/",
+    "category": "html-only",
+    "response_ms": 1688,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.fishfvch.com/",
+    "category": "html-only",
+    "response_ms": 1711,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.fuckoffgoogle.net/",
+    "category": "html-only",
+    "response_ms": 1716,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://kantan.cat/",
+    "category": "html-only",
+    "response_ms": 1719,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.url4irl.com/",
+    "category": "html-only",
+    "response_ms": 1769,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.site/",
+    "category": "html-only",
+    "response_ms": 1975,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.lunar.icu/",
+    "category": "html-only",
+    "response_ms": 1985,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.hbubli.cc/",
+    "category": "html-only",
+    "response_ms": 2008,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.ethibox.fr/",
+    "category": "html-only",
+    "response_ms": 2018,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.gr/",
+    "category": "html-only",
+    "response_ms": 2163,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.catboy.house/",
+    "category": "html-only",
+    "response_ms": 2300,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://sx.catgirl.cloud/",
+    "category": "html-only",
+    "response_ms": 2525,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.gdebest.net/",
+    "category": "html-only",
+    "response_ms": 2535,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.anoni.net/",
+    "category": "html-only",
+    "response_ms": 2679,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searx.baczek.me/",
+    "category": "html-only",
+    "response_ms": 2901,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.website/",
+    "category": "html-only",
+    "response_ms": 2960,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://grep.vim.wtf/",
+    "category": "html-only",
+    "response_ms": 3048,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.nordh.tech/",
+    "category": "html-only",
+    "response_ms": 3052,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.fredix.xyz/",
+    "category": "not-searxng",
+    "response_ms": 518,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://nogoo.me/",
+    "category": "not-searxng",
+    "response_ms": 580,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.canine.tools/",
+    "category": "not-searxng",
+    "response_ms": 807,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.projectsegfau.lt/",
+    "category": "not-searxng",
+    "response_ms": 926,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.in.projectsegfau.lt/",
+    "category": "not-searxng",
+    "response_ms": 935,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://search.datenkrake.ch/",
+    "category": "not-searxng",
+    "response_ms": 1060,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://fairsuch.net/",
+    "category": "not-searxng",
+    "response_ms": 1540,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.online/",
+    "category": "not-searxng",
+    "response_ms": 1873,
+    "tested": "2026-05-23",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng2api.svia.workers.dev/",
+    "category": "http-error",
+    "response_ms": 764,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.colbster937.dev/",
+    "category": "http-error",
+    "response_ms": 1087,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.neocities.org/",
+    "category": "http-error",
+    "response_ms": 1310,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.oloke.xyz/",
+    "category": "http-error",
+    "response_ms": 1335,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.redgarden.cv/",
+    "category": "http-error",
+    "response_ms": 1548,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://xo.wtf/",
+    "category": "http-error",
+    "response_ms": 1611,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.leptons.xyz/",
+    "category": "http-error",
+    "response_ms": 2332,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.chocolatemoo53.com/",
+    "category": "http-error",
+    "response_ms": 3094,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.juancord.xyz/",
+    "category": "http-error",
+    "response_ms": 3301,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ctq.ro/",
+    "category": "http-error",
+    "response_ms": 3316,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://www.jabber-germany.de/searx",
+    "category": "http-error",
+    "response_ms": 4246,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ononoki.org/",
+    "category": "offline",
+    "response_ms": 0,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://www.gruble.de/",
+    "category": "offline",
+    "response_ms": 0,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/",
+    "category": "offline",
+    "response_ms": 163,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.linuxchad.win/",
+    "category": "offline",
+    "response_ms": 167,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.demoniak.ch/",
+    "category": "offline",
+    "response_ms": 177,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion/",
+    "category": "offline",
+    "response_ms": 230,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.blitzw.in/",
+    "category": "offline",
+    "response_ms": 245,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion/",
+    "category": "offline",
+    "response_ms": 263,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion/",
+    "category": "offline",
+    "response_ms": 264,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion/",
+    "category": "offline",
+    "response_ms": 278,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion/",
+    "category": "offline",
+    "response_ms": 293,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://skyrimhater.com/",
+    "category": "offline",
+    "response_ms": 297,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.catfluori.de/",
+    "category": "offline",
+    "response_ms": 339,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.aleteoryx.me/",
+    "category": "offline",
+    "response_ms": 393,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion/",
+    "category": "offline",
+    "response_ms": 405,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion/",
+    "category": "offline",
+    "response_ms": 407,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion/",
+    "category": "offline",
+    "response_ms": 414,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.daetalytica.io/",
+    "category": "offline",
+    "response_ms": 425,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ngn.tf/",
+    "category": "offline",
+    "response_ms": 438,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.electroncash.de/",
+    "category": "offline",
+    "response_ms": 480,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.incogniweb.net/",
+    "category": "offline",
+    "response_ms": 540,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://sx.thatxtreme.dev/",
+    "category": "offline",
+    "response_ms": 559,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.datura.network/",
+    "category": "offline",
+    "response_ms": 579,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://vanderwilhelm.me/",
+    "category": "offline",
+    "response_ms": 604,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.bus-hit.me/",
+    "category": "offline",
+    "response_ms": 610,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.tommy-tran.com/",
+    "category": "offline",
+    "response_ms": 618,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.techsaviours.org/",
+    "category": "offline",
+    "response_ms": 689,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.nerdvpn.de/",
+    "category": "offline",
+    "response_ms": 692,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.fr3ak.xyz/",
+    "category": "offline",
+    "response_ms": 693,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.nadeko.net/",
+    "category": "offline",
+    "response_ms": 695,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://sx.zorby.top/",
+    "category": "offline",
+    "response_ms": 752,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.ari.lt/",
+    "category": "offline",
+    "response_ms": 835,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://sx.ca.zorby.top/",
+    "category": "offline",
+    "response_ms": 866,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.dotone.nl/",
+    "category": "offline",
+    "response_ms": 1043,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.foss.family/",
+    "category": "offline",
+    "response_ms": 1122,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ldne.xyz/",
+    "category": "offline",
+    "response_ms": 1592,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.privacyredirect.com/",
+    "category": "offline",
+    "response_ms": 1718,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.smnz.de/",
+    "category": "offline",
+    "response_ms": 1721,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.hweeren.com/",
+    "category": "offline",
+    "response_ms": 1754,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.oakleycord.dev/",
+    "category": "offline",
+    "response_ms": 2067,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.work/",
+    "category": "offline",
+    "response_ms": 2278,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://northboot.xyz/",
+    "category": "offline",
+    "response_ms": 2632,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.charliewhiskey.net/",
+    "category": "offline",
+    "response_ms": 2706,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.zhenyapav.com/",
+    "category": "offline",
+    "response_ms": 3525,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://search.us.projectsegfau.lt/",
+    "category": "offline",
+    "response_ms": 10524,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.ch/",
+    "category": "offline",
+    "response_ms": 10566,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.thefloatinglab.world/",
+    "category": "offline",
+    "response_ms": 11716,
+    "tested": "2026-05-23",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.ca/",
+    "category": "offline",
+    "response_ms": 20195,
+    "tested": "2026-05-23",
+    "status": "down"
+  }
+]
