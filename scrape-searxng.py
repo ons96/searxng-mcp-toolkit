@@ -18,7 +18,10 @@ import urllib.request
 
 import yaml
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.expanduser("~/.config/opencode/setup/searxng-instances.yaml")
+CI_DB_PATH = os.path.join(SCRIPT_DIR, "searxng-instances.yaml")
+JSON_OUT = os.path.join(SCRIPT_DIR, "instances.json")
 SOURCES = {
     "searx.space": "https://searx.space/data/instances.json",
     "instancescores": "https://searx.neocities.org/instancescores",
@@ -79,6 +82,10 @@ def main():
     do_test = "--test" in args
     ci = "--ci" in args
 
+    global DB_PATH
+    if ci:
+        DB_PATH = CI_DB_PATH
+
     db = load_db()
     existing = {i["url"] for i in db["instances"]}
 
@@ -110,6 +117,14 @@ def main():
             entry = {"url": u, "sources": ["scraper"], "status": "unknown"}
             db["instances"].append(entry)
         save_db(db)
+        # In CI, also write instances.json for the MCP server
+        if ci:
+            import json
+            json_out = [{"url": i["url"], "category": i.get("category", "unknown"),
+                         "response_ms": i.get("response_ms", 0), "tested": i.get("tested", ""),
+                         "status": i.get("status", "")} for i in db["instances"]]
+            with open(JSON_OUT, "w") as f:
+                json.dump(json_out, f, indent=2)
         if not ci:
             print(f"Merged {len(new_urls)} new instances into {DB_PATH}", file=sys.stderr)
     elif do_test:
