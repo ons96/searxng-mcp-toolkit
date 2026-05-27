@@ -1,75 +1,58 @@
 instances:
-- url: https://serxng-deployment-production.up.railway.app/
-  sources:
-  - user-proj
-  note: URL typo 'serxng' (not 'searxng') — may still work
-  tested: '2026-05-26'
-  status: up
-  category: full-json
-  response_ms: 1281
-  http_status: 200
-  json_api: true
-  result_count: 17
-  engines:
-  - duckduckgo
-  - wikipedia
-  - startpage
 - url: https://monocles.de/
   sources:
   - fmhy
   note: Runs old searx v1.0.1 (not SearXNG), may not support JSON API
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: full-json
-  response_ms: 1721
+  response_ms: 1351
   http_status: 200
   json_api: true
   result_count: 0
-- url: https://searx.mv-software.de/
+- url: https://serxng-deployment-production.up.railway.app/
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - user-proj
+  note: URL typo 'serxng' (not 'searxng') — may still work
+  tested: '2026-05-27'
   status: up
   category: full-json
-  response_ms: 4422
+  response_ms: 3586
   http_status: 200
   json_api: true
-  result_count: 28
+  result_count: 0
   engines:
-  - qwant
-  - google
+  - duckduckgo
   - wikipedia
   - startpage
-  - duckduckgo
-- url: https://searxng.shreven.org/
-  sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
-  status: up
-  category: html-only
-  response_ms: 194
-  http_status: 200
-  json_api: false
-  result_count: 0
 - url: https://searxng.shreven.org
   sources:
   - scraper
   status: up
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: html-only
-  response_ms: 205
+  response_ms: 159
   http_status: 200
   json_api: false
   result_count: 0
-- url: https://search.hbubli.cc/
+- url: https://nyc1.sx.ggtyler.dev/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: up
+  category: html-only
+  response_ms: 229
+  http_status: 200
+  json_api: false
+  result_count: 0
+- url: https://searxng.shreven.org/
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: html-only
-  response_ms: 421
+  response_ms: 321
   http_status: 200
   json_api: false
   result_count: 0
@@ -77,9 +60,9 @@ instances:
   sources:
   - scraper
   status: up
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: html-only
-  response_ms: 436
+  response_ms: 343
   http_status: 200
   json_api: false
   result_count: 0
@@ -87,30 +70,53 @@ instances:
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: html-only
-  response_ms: 436
+  response_ms: 347
   http_status: 200
   json_api: false
   result_count: 0
-- url: https://nyc1.sx.ggtyler.dev/
+- url: https://search.hbubli.cc
+  sources:
+  - scraper
+  status: up
+  tested: '2026-05-27'
+  category: html-only
+  response_ms: 354
+  http_status: 200
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 500: Internal Server Error'
+- url: https://search.hbubli.cc/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: up
+  category: html-only
+  response_ms: 364
+  http_status: 200
+  json_api: false
+  result_count: 0
+- url: https://search.nordh.tech/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: html-only
-  response_ms: 490
+  response_ms: 373
   http_status: 200
   json_api: false
   result_count: 0
+  error: <urlopen error timed out>
 - url: https://search.privacyredirect.com
   sources:
   - scraper
   status: up
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: html-only
-  response_ms: 551
+  response_ms: 451
   http_status: 200
   json_api: false
   result_count: 0
@@ -118,10 +124,10 @@ instances:
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: html-only
-  response_ms: 565
+  response_ms: 474
   http_status: 200
   json_api: false
   result_count: 0
@@ -130,10 +136,10 @@ instances:
   sources:
   - searx.space
   - fmhy
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 105
+  response_ms: 46
   http_status: 200
   json_api: false
   result_count: 0
@@ -141,31 +147,42 @@ instances:
   sources:
   - scraper
   status: up
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: not-searxng
-  response_ms: 115
+  response_ms: 59
+  http_status: 200
+  json_api: false
+  result_count: 0
+- url: https://searxng.online/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: up
+  category: not-searxng
+  response_ms: 100
   http_status: 200
   json_api: false
   result_count: 0
 - url: https://searx.work/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 166
+  response_ms: 140
   http_status: 200
   json_api: false
   result_count: 0
   error: '<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:
     Hostname mismatch, certificate is not valid for ''searx.work''. (_ssl.c:1016)>'
-- url: https://searxng.online/
+- url: https://search.datenkrake.ch/
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - searx.space
+  - fmhy
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 216
+  response_ms: 313
   http_status: 200
   json_api: false
   result_count: 0
@@ -173,20 +190,19 @@ instances:
   sources:
   - scraper
   status: up
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: not-searxng
-  response_ms: 406
+  response_ms: 342
   http_status: 200
   json_api: false
   result_count: 0
-- url: https://search.datenkrake.ch/
+- url: https://nogoo.me/
   sources:
-  - searx.space
-  - fmhy
-  tested: '2026-05-26'
+  - instancescores
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 449
+  response_ms: 436
   http_status: 200
   json_api: false
   result_count: 0
@@ -194,105 +210,51 @@ instances:
   sources:
   - instancescores
   note: Behind Anubis PoW anti-bot — likely unusable for API
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 494
-  http_status: 200
-  json_api: false
-  result_count: 0
-- url: https://nogoo.me/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: up
-  category: not-searxng
-  response_ms: 530
+  response_ms: 447
   http_status: 200
   json_api: false
   result_count: 0
 - url: https://search.projectsegfau.lt/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 922
+  response_ms: 882
   http_status: 200
   json_api: false
   result_count: 0
 - url: https://search.in.projectsegfau.lt/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 956
+  response_ms: 902
   http_status: 200
   json_api: false
   result_count: 0
 - url: https://fairsuch.net/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: up
   category: not-searxng
-  response_ms: 1397
+  response_ms: 1043
   http_status: 200
   json_api: false
   result_count: 0
-- url: https://searx.neocities.org/
+- url: https://searx.party/
   sources:
+  - searx.space
   - fmhy
-  note: Meta-instance (random redirector), not a real SearXNG instance
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 76
-  http_status: 404
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 404: Not Found'
-- url: https://search.chocolatemoo53.com/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 101
-  http_status: 418
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 418: I''m a teapot'
-- url: https://copp.gg/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 106
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.party
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 120
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://baresearch.org
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 130
+  response_ms: 56
   http_status: 429
   json_api: false
   result_count: 0
@@ -300,56 +262,34 @@ instances:
 - url: https://searxng2api.svia.workers.dev/
   sources:
   - user-proj
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 130
+  response_ms: 67
   http_status: 404
   json_api: false
   result_count: 0
   error: 'HTTP Error 404: Not Found'
-- url: https://search.ononoki.org/
+- url: https://searx.sev.monster/
   sources:
   - searx.space
-  - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 139
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://seek.fyi
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 147
+  response_ms: 78
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.ononoki.org
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 151
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://baresearch.org/
+- url: https://seek.fyi/
   sources:
   - searx.space
+  - fmhy
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 157
+  response_ms: 101
   http_status: 429
   json_api: false
   result_count: 0
@@ -357,55 +297,44 @@ instances:
 - url: https://searx.colbster937.dev/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 166
+  response_ms: 104
   http_status: 530
   json_api: false
   result_count: 0
   error: 'HTTP Error 530: <none>'
-- url: https://search.chocolatemoo53.com
+- url: https://www.cloudsearch.me/
   sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 183
-  http_status: 418
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 418: I''m a teapot'
-- url: https://sxng.violets-purgatory.dev/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
+  - web
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 183
-  http_status: 429
+  response_ms: 109
+  http_status: 403
   json_api: false
   result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://copp.gg
+  error: 'HTTP Error 403: Forbidden'
+- url: https://searx.neocities.org/
   sources:
-  - scraper
+  - fmhy
+  note: Meta-instance (random redirector), not a real SearXNG instance
+  tested: '2026-05-27'
   status: down
-  tested: '2026-05-26'
   category: http-error
-  response_ms: 188
-  http_status: 429
+  response_ms: 115
+  http_status: 404
   json_api: false
   result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.party/
+  error: 'HTTP Error 404: Not Found'
+- url: https://copp.gg/
   sources:
   - searx.space
-  - fmhy
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 194
+  response_ms: 136
   http_status: 429
   json_api: false
   result_count: 0
@@ -414,158 +343,89 @@ instances:
   sources:
   - fmhy
   note: Not in official searx.space list as of 2026-05-23
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 215
+  response_ms: 155
   http_status: 403
   json_api: false
   result_count: 0
   error: 'HTTP Error 403: Forbidden'
-- url: https://seek.fyi/
-  sources:
-  - searx.space
-  - fmhy
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 216
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.2b9t.xyz/
-  sources:
-  - searx.space
-  - fmhy
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 220
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.sev.monster
+- url: https://search.chocolatemoo53.com
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 220
-  http_status: 429
+  response_ms: 156
+  http_status: 418
   json_api: false
   result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://xo.wtf/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 229
-  http_status: 502
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 502: Bad Gateway'
-- url: https://search.2b9t.xyz
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 247
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.ankha.ac
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 256
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
+  error: 'HTTP Error 418: I''m a teapot'
 - url: https://etsi.me/
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 262
+  response_ms: 165
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.femboy.ad/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 276
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
 - url: https://etsi.me
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 282
+  response_ms: 166
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.abohiccups.com/
+- url: https://baresearch.org/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  - instancescores
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 288
+  response_ms: 174
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://www.cloudsearch.me/
+- url: https://search.ononoki.org
   sources:
-  - web
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 291
+  response_ms: 179
   http_status: 403
   json_api: false
   result_count: 0
   error: 'HTTP Error 403: Forbidden'
-- url: https://ooglester.com/
+- url: https://copp.gg
   sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 294
+  response_ms: 201
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.abohiccups.com
+- url: https://seek.fyi
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 305
+  response_ms: 203
   http_status: 429
   json_api: false
   result_count: 0
@@ -574,9 +434,42 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 336
+  response_ms: 226
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.party
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 236
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://sxng.violets-purgatory.dev/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 247
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://searx.ankha.ac/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 253
   http_status: 429
   json_api: false
   result_count: 0
@@ -585,187 +478,88 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 351
+  response_ms: 259
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.rhscz.eu
+- url: https://search.chocolatemoo53.com/
   sources:
-  - scraper
+  - searx.space
+  tested: '2026-05-27'
   status: down
-  tested: '2026-05-26'
   category: http-error
-  response_ms: 358
+  response_ms: 265
+  http_status: 418
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 418: I''m a teapot'
+- url: https://search.2b9t.xyz/
+  sources:
+  - searx.space
+  - fmhy
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 271
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.undertale.uk
+- url: https://search.femboy.ad/
   sources:
-  - scraper
+  - searx.space
+  tested: '2026-05-27'
   status: down
-  tested: '2026-05-26'
   category: http-error
-  response_ms: 378
+  response_ms: 280
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.abohiccups.com/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 283
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.ononoki.org/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 283
   http_status: 403
   json_api: false
   result_count: 0
   error: 'HTTP Error 403: Forbidden'
-- url: https://search.inetol.net
+- url: https://search.abohiccups.com
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 391
+  response_ms: 285
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.namejeff.xyz
+- url: https://search.2b9t.xyz
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 395
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://grep.vim.wtf
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 398
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.sapti.me
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 405
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.rhscz.eu/
-  sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 406
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.zina.dev
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 406
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.mbuf.net
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 406
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.einfachzocken.eu
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 407
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.dresden.network
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 415
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.tuxcloud.net
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 416
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://searxng.website/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 418
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://www.gruble.de
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 421
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.mdosch.de
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 422
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.im-in.space/
-  sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 423
+  response_ms: 288
   http_status: 429
   json_api: false
   result_count: 0
@@ -773,166 +567,22 @@ instances:
 - url: https://search.leptons.xyz/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 427
+  response_ms: 288
   http_status: 502
   json_api: false
   result_count: 0
   error: 'HTTP Error 502: Bad Gateway'
-- url: https://failsearx.culturanerd.it
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 429
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.oloke.xyz
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 429
-  http_status: 500
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 500: Internal Server Error'
-- url: https://searx.namejeff.xyz/
+- url: https://ooglester.com/
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 430
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.cups.moe/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 432
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.tiekoetter.com
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 434
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.im-in.space
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 437
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.ctq.ro
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 441
-  http_status: 418
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 418: '
-- url: https://searx.ankha.ac/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 442
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.lunar.icu/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 442
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.site/
-  sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 442
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://searx.rhscz.eu
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 447
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.website
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 449
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://searxng.deggo.fyi
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 451
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://find.xenorio.xyz
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 452
+  response_ms: 297
   http_status: 429
   json_api: false
   result_count: 0
@@ -940,187 +590,33 @@ instances:
 - url: https://searxng.deggo.fyi/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 456
+  response_ms: 312
   http_status: 403
   json_api: false
   result_count: 0
   error: 'HTTP Error 403: Forbidden'
-- url: https://searxng.blablalinux.be
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 461
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.rhscz.eu/
+- url: https://searx.dresden.network/
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 468
+  response_ms: 313
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.site
+- url: https://search.einfachzocken.eu
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 469
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://search.url4irl.com/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 474
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.pi.vps.pw
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 477
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.minus27315.dev
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 482
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.zina.dev/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 482
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.ox2.fr
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 489
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.serpensin.com
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 493
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.juancord.xyz/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 493
-  http_status: 502
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 502: Bad Gateway'
-- url: https://search.wdpserver.com
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 498
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.serpensin.com/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 501
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://find.xenorio.xyz/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 511
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.pi.vps.pw/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 516
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.url4irl.com
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 525
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.tsmdt.de
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 527
+  response_ms: 314
   http_status: 429
   json_api: false
   result_count: 0
@@ -1129,66 +625,67 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 536
+  response_ms: 318
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.ro/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 540
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.fishfvch.com
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 544
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://paulgo.io/
-  sources:
-  - searx.space
-  - web
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 546
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.tsmdt.de/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 548
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.einfachzocken.eu/
+- url: https://searx.namejeff.xyz/
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 551
+  response_ms: 319
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.inetol.net/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 323
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://www.gruble.de/
+  sources:
+  - searx.space
+  - fmhy
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 323
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.undertale.uk/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 324
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://searx.lunar.icu/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 325
   http_status: 429
   json_api: false
   result_count: 0
@@ -1196,246 +693,33 @@ instances:
 - url: https://failsearx.culturanerd.it/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 552
+  response_ms: 329
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.ro
+- url: https://search.im-in.space
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 557
+  response_ms: 329
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.sapti.me/
+- url: https://searx.tiekoetter.com/
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 560
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.bladerunn.in/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 562
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.fishfvch.com/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 562
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://searxng.gdebest.net/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 562
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.catboy.house
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 564
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.ctq.ro/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 566
-  http_status: 418
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 418: '
-- url: https://searxng.gr
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 568
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.mbuf.net/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 570
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.wdpserver.com/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 573
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.catboy.house/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 585
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.anoni.net
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 591
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.redgarden.cv/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 591
-  http_status: 418
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 418: I''m a teapot'
-- url: https://searx.perennialte.ch/
-  sources:
-  - searx.space
-  - web
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 593
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://priv.au
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 594
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.pereira.is/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 597
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.ethibox.fr
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 598
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.seddens.net
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 600
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://paulgo.io
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 603
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.blablalinux.be/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 604
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.ox2.fr/
-  sources:
-  - searx.space
-  - fmhy
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 610
+  response_ms: 330
   http_status: 429
   json_api: false
   result_count: 0
@@ -1445,45 +729,77 @@ instances:
   - searx.space
   - fmhy
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 610
+  response_ms: 330
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://searx.thefloatinglab.world/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 611
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://opnxng.com/
+- url: https://grep.vim.wtf/
   sources:
   - searx.space
-  - fmhy
-  note: OpenXNG
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 621
+  response_ms: 331
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.anoni.net/
+- url: https://baresearch.org
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 332
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.ctq.ro/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 621
+  response_ms: 332
+  http_status: 418
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 418: '
+- url: https://search.sapti.me/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 332
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.zina.dev/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 334
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.cups.moe/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 337
   http_status: 429
   json_api: false
   result_count: 0
@@ -1492,66 +808,124 @@ instances:
   sources:
   - searx.space
   - fmhy
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 622
+  response_ms: 341
   http_status: 500
   json_api: false
   result_count: 0
   error: 'HTTP Error 500: Internal Server Error'
-- url: https://www.gruble.de/
+- url: https://search.mdosch.de/
   sources:
   - searx.space
   - fmhy
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 622
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.unredacted.org
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 623
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.bladerunn.in
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 629
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://darmarit.org/searx
-  sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 630
+  response_ms: 350
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://searxng.gdebest.net
+- url: https://searx.rhscz.eu/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 350
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.deggo.fyi
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 635
+  response_ms: 351
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://searx.sev.monster
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 357
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.einfachzocken.eu/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 358
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.zina.dev
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 359
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.serpensin.com/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 360
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.website
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 360
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://search.url4irl.com
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 361
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.blablalinux.be/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 363
   http_status: 429
   json_api: false
   result_count: 0
@@ -1559,178 +933,245 @@ instances:
 - url: https://search.minus27315.dev/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 637
+  response_ms: 375
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.baczek.me/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 644
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.seddens.net/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 645
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.internetsucks.net/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 647
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.brihx.fr/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 652
-  http_status: 403
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 403: Forbidden'
-- url: https://searx.redgarden.cv
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 656
-  http_status: 418
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 418: I''m a teapot'
-- url: https://search.hbubli.cc
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 666
-  http_status: 500
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 500: Internal Server Error'
-- url: https://search.indst.eu
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 670
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.pereira.is
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 684
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://opnxng.com
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 691
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.perennialte.ch
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 697
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://grep.vim.wtf/
-  sources:
-  - searx.space
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 705
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.indst.eu/
-  sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 706
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.internetsucks.net
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: http-error
-  response_ms: 716
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.mdosch.de/
+- url: https://searx.ox2.fr/
   sources:
   - searx.space
   - fmhy
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 726
+  response_ms: 377
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.ankha.ac
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 381
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://find.xenorio.xyz/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 384
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.im-in.space/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 384
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.fishfvch.com/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 385
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.unredacted.org/
+- url: https://searx.namejeff.xyz
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 391
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.site/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  - instancescores
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 736
+  response_ms: 394
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://searxng.fishfvch.com
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 403
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://search.pi.vps.pw/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 405
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.serpensin.com
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 408
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.gr/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 414
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.rhscz.eu
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 415
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.pi.vps.pw
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 417
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://paulgo.io
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 422
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.website/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 422
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://search.pereira.is
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 424
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://kantan.cat/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 426
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://searxng.site
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 427
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://searx.ro/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 433
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.mbuf.net
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 434
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://searx.tsmdt.de
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 435
   http_status: 429
   json_api: false
   result_count: 0
@@ -1739,32 +1180,207 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 770
+  response_ms: 440
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://searx.dresden.network/
+- url: https://searx.ro
   sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 771
+  response_ms: 446
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searxng.gr/
+- url: https://searx.tsmdt.de/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 777
+  response_ms: 446
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://failsearx.culturanerd.it
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 451
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.url4irl.com/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 454
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.wdpserver.com/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 454
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.baczek.me/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 454
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.mbuf.net/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 457
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://searx.oloke.xyz
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 465
+  http_status: 500
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 500: Internal Server Error'
+- url: https://searxng.gdebest.net
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 471
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.ctq.ro
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 483
+  http_status: 418
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 418: '
+- url: https://find.xenorio.xyz
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 486
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.gdebest.net/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 489
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.minus27315.dev
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 499
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.wdpserver.com
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 507
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.tuxcloud.net
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 524
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://searxng.blablalinux.be
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 526
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.juancord.xyz/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 536
+  http_status: 502
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 502: Bad Gateway'
+- url: https://search.ethibox.fr/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 541
   http_status: 429
   json_api: false
   result_count: 0
@@ -1773,45 +1389,168 @@ instances:
   sources:
   - fmhy
   note: Not in official searx.space list
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 778
+  response_ms: 555
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.inetol.net/
+- url: https://searxng.gr
   sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 811
+  response_ms: 561
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.tiekoetter.com/
+- url: https://grep.vim.wtf
   sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 818
+  response_ms: 576
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.rajimayur.me/
+- url: https://search.seddens.net/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 824
+  response_ms: 580
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://darmarit.org/searx
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 589
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://search.pereira.is/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 608
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.dresden.network
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 610
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.rowie.at/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 611
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://paulgo.io/
+  sources:
+  - searx.space
+  - web
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 618
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.inetol.net
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 619
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.perennialte.ch
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 620
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.rhscz.eu/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 626
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.indst.eu/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 635
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://www.gruble.de
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 637
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.tiekoetter.com
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 638
   http_status: 429
   json_api: false
   result_count: 0
@@ -1820,54 +1559,42 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 832
+  response_ms: 640
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://kantan.cat/
+- url: https://search.indst.eu
   sources:
-  - searx.space
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 852
-  http_status: 429
-  json_api: false
-  result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.rowie.at/
-  sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: http-error
-  response_ms: 858
+  response_ms: 652
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.mxchange.org
+- url: https://searx.redgarden.cv
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 861
-  http_status: 429
+  response_ms: 652
+  http_status: 418
   json_api: false
   result_count: 0
-  error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://searx.rajimayur.me
+  error: 'HTTP Error 418: I''m a teapot'
+- url: https://search.sapti.me
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 894
+  response_ms: 656
   http_status: 429
   json_api: false
   result_count: 0
@@ -1876,32 +1603,155 @@ instances:
   sources:
   - searx.space
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 901
+  response_ms: 671
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: TOO MANY REQUESTS'
-- url: https://search.ethibox.fr/
+- url: https://search.mdosch.de
   sources:
-  - searx.space
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 920
+  response_ms: 678
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://search.internetsucks.net
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 685
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://searx.sev.monster/
+- url: https://searx.rajimayur.me/
   sources:
   - searx.space
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 925
+  response_ms: 699
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.anoni.net/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 720
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.rajimayur.me
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 722
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://opnxng.com
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 723
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.rhscz.eu
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 733
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.anoni.net
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 735
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.bladerunn.in/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 750
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.ox2.fr
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 751
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.thefloatinglab.world/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 751
+  http_status: 403
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 403: Forbidden'
+- url: https://searx.mxchange.org
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 752
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://searx.perennialte.ch/
+  sources:
+  - searx.space
+  - web
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 759
   http_status: 429
   json_api: false
   result_count: 0
@@ -1909,194 +1759,201 @@ instances:
 - url: https://www.jabber-germany.de/searx
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 948
+  response_ms: 760
   http_status: 404
   json_api: false
   result_count: 0
   error: 'HTTP Error 404: Not Found'
-- url: https://priv.au/
+- url: https://search.seddens.net
   sources:
-  - searx.space
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: http-error
-  response_ms: 972
+  response_ms: 761
   http_status: 429
   json_api: false
   result_count: 0
   error: 'HTTP Error 429: Too Many Requests'
-- url: https://search.undertale.uk/
+- url: https://xo.wtf/
   sources:
-  - searx.space
-  tested: '2026-05-26'
+  - instancescores
+  tested: '2026-05-27'
   status: down
   category: http-error
-  response_ms: 1417
+  response_ms: 764
+  http_status: 502
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 502: Bad Gateway'
+- url: https://opnxng.com/
+  sources:
+  - searx.space
+  - fmhy
+  note: OpenXNG
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 765
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://priv.au/
+  sources:
+  - searx.space
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 773
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searx.redgarden.cv/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 803
+  http_status: 418
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 418: I''m a teapot'
+- url: https://search.unredacted.org
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 819
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://searxng.brihx.fr/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 824
   http_status: 403
   json_api: false
   result_count: 0
   error: 'HTTP Error 403: Forbidden'
-- url: http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion
+- url: https://search.unredacted.org/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 834
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.catboy.house/
+  sources:
+  - searx.space
+  tested: '2026-05-27'
+  status: down
+  category: http-error
+  response_ms: 835
+  http_status: 429
+  json_api: false
+  result_count: 0
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.ethibox.fr
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 22
-  http_status: 0
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 898
+  http_status: 429
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.bladerunn.in
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 22
-  http_status: 0
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 911
+  http_status: 429
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion/
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.internetsucks.net/
   sources:
   - searx.space
-  note: Tor — search.serpensin.com hidden service
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
-  category: offline
-  response_ms: 22
-  http_status: 0
+  category: http-error
+  response_ms: 960
+  http_status: 429
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion/
-  sources:
-  - searx.space
-  note: Tor — kantan.cat hidden service
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 23
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion/
-  sources:
-  - searx.space
-  note: Tor — searx.tiekoetter.com hidden service
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 24
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://search.catboy.house
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 27
-  http_status: 0
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 961
+  http_status: 429
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://priv.au
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 31
-  http_status: 0
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 1037
+  http_status: 429
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/
+  error: 'HTTP Error 429: Too Many Requests'
+- url: https://s.trung.fun/
   sources:
-  - searx.space
-  note: Tor — search.anoni.net hidden service
-  tested: '2026-05-26'
+  - instancescores
+  tested: '2026-05-27'
   status: down
-  category: offline
-  response_ms: 32
-  http_status: 0
+  category: http-error
+  response_ms: 1243
+  http_status: 429
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion/
-  sources:
-  - searx.space
-  note: Tor — searx.oloke.xyz hidden service
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 32
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion/
-  sources:
-  - searx.space
-  note: Tor — search.rhscz.eu hidden service
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 35
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion
+  error: 'HTTP Error 429: TOO MANY REQUESTS'
+- url: https://search.undertale.uk
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 35
-  http_status: 0
+  tested: '2026-05-27'
+  category: http-error
+  response_ms: 1441
+  http_status: 403
   json_api: false
   result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 36
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion/
+  error: 'HTTP Error 403: Forbidden'
+- url: http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion/
   sources:
   - searx.space
-  note: Tor — priv.au hidden service
-  tested: '2026-05-26'
+  note: Tor — search.indst.eu hidden service
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 41
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion
-  sources:
-  - scraper
-  status: down
-  tested: '2026-05-26'
-  category: offline
-  response_ms: 42
+  response_ms: 5
   http_status: 0
   json_api: false
   result_count: 0
@@ -2105,9 +1962,9 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: offline
-  response_ms: 42
+  response_ms: 9
   http_status: 0
   json_api: false
   result_count: 0
@@ -2116,21 +1973,32 @@ instances:
   sources:
   - scraper
   status: down
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   category: offline
-  response_ms: 47
+  response_ms: 9
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion/
+- url: http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: offline
+  response_ms: 11
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion/
   sources:
   - searx.space
-  note: Tor — search.indst.eu hidden service
-  tested: '2026-05-26'
+  note: Tor — priv.au hidden service
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 48
+  response_ms: 11
   http_status: 0
   json_api: false
   result_count: 0
@@ -2139,98 +2007,148 @@ instances:
   sources:
   - searx.space
   note: Tor — searx.rhscz.eu hidden service
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 62
+  response_ms: 15
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://vanderwilhelm.me/
+- url: http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion/
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - searx.space
+  note: Tor — search.serpensin.com hidden service
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 89
+  response_ms: 20
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://search.ngn.tf/
+- url: http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: offline
-  response_ms: 111
+  response_ms: 25
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://searx.aleteoryx.me/
+- url: http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion/
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - searx.space
+  note: Tor — search.rhscz.eu hidden service
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 111
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno 111] Connection refused>
-- url: https://search.tommy-tran.com/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 115
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -5] No address associated with hostname>
-- url: https://sx.zorby.top/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 118
+  response_ms: 25
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://search.demoniak.ch/
+- url: http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - scraper
   status: down
+  tested: '2026-05-27'
   category: offline
-  response_ms: 132
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -5] No address associated with hostname>
-- url: https://search.bus-hit.me/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 136
+  response_ms: 28
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://searx.daetalytica.io/
+- url: http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion/
   sources:
-  - instancescores
-  tested: '2026-05-26'
+  - searx.space
+  note: Tor — searx.oloke.xyz hidden service
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 150
+  response_ms: 28
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: offline
+  response_ms: 29
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/
+  sources:
+  - searx.space
+  note: Tor — search.anoni.net hidden service
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 38
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: offline
+  response_ms: 43
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion/
+  sources:
+  - searx.space
+  note: Tor — kantan.cat hidden service
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 50
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: offline
+  response_ms: 72
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion
+  sources:
+  - scraper
+  status: down
+  tested: '2026-05-27'
+  category: offline
+  response_ms: 73
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion/
+  sources:
+  - searx.space
+  note: Tor — searx.tiekoetter.com hidden service
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 76
   http_status: 0
   json_api: false
   result_count: 0
@@ -2238,43 +2156,76 @@ instances:
 - url: https://sx.ca.zorby.top/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 155
+  response_ms: 79
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://search.dotone.nl/
+- url: https://vanderwilhelm.me/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 215
+  response_ms: 79
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://search.fr3ak.xyz/
+- url: https://search.demoniak.ch/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 217
+  response_ms: 88
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -5] No address associated with hostname>
+- url: https://search.ldne.xyz/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 89
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: '<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)>'
+- url: https://skyrimhater.com/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 96
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://searx.catfluori.de/
+- url: https://sx.zorby.top/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 221
+  response_ms: 97
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: https://search.incogniweb.net/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 101
   http_status: 0
   json_api: false
   result_count: 0
@@ -2282,33 +2233,44 @@ instances:
 - url: https://searx.oakleycord.dev/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 222
+  response_ms: 104
   http_status: 0
   json_api: false
   result_count: 0
   error: '<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed:
     self-signed certificate (_ssl.c:1016)>'
-- url: https://search.ldne.xyz/
+- url: https://searx.aleteoryx.me/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 225
+  response_ms: 118
   http_status: 0
   json_api: false
   result_count: 0
-  error: '<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1016)>'
-- url: https://search.blitzw.in/
+  error: <urlopen error [Errno 111] Connection refused>
+- url: https://search.ngn.tf/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 229
+  response_ms: 152
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: https://search.fr3ak.xyz/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 158
   http_status: 0
   json_api: false
   result_count: 0
@@ -2316,43 +2278,109 @@ instances:
 - url: https://search.nadeko.net/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 230
+  response_ms: 159
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -5] No address associated with hostname>
-- url: https://search.incogniweb.net/
+- url: https://search.blitzw.in/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 238
+  response_ms: 160
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://skyrimhater.com/
+- url: https://searx.catfluori.de/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 263
+  response_ms: 161
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://searx.ari.lt/
+- url: https://search.tommy-tran.com/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 272
+  response_ms: 167
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -5] No address associated with hostname>
+- url: https://searxng.linuxchad.win/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 189
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -5] No address associated with hostname>
+- url: https://search.bus-hit.me/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 202
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: https://search.dotone.nl/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 223
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: https://search.datura.network/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 228
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: https://search.nerdvpn.de/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 236
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
+- url: https://searx.techsaviours.org/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 278
   http_status: 0
   json_api: false
   result_count: 0
@@ -2360,10 +2388,10 @@ instances:
 - url: https://searx.electroncash.de/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 336
+  response_ms: 287
   http_status: 0
   json_api: false
   result_count: 0
@@ -2371,43 +2399,32 @@ instances:
 - url: https://search.smnz.de/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 348
+  response_ms: 316
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno 101] Network is unreachable>
-- url: https://search.nerdvpn.de/
+- url: https://searx.daetalytica.io/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 356
+  response_ms: 335
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://searxng.linuxchad.win/
+- url: https://searx.ari.lt/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 390
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -5] No address associated with hostname>
-- url: https://searx.foss.family/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 423
+  response_ms: 341
   http_status: 0
   json_api: false
   result_count: 0
@@ -2415,21 +2432,32 @@ instances:
 - url: https://northboot.xyz/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 492
+  response_ms: 388
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno 104] Connection reset by peer>
+- url: https://searx.foss.family/
+  sources:
+  - instancescores
+  tested: '2026-05-27'
+  status: down
+  category: offline
+  response_ms: 509
+  http_status: 0
+  json_api: false
+  result_count: 0
+  error: <urlopen error [Errno -2] Name or service not known>
 - url: https://search.charliewhiskey.net/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 610
+  response_ms: 518
   http_status: 0
   json_api: false
   result_count: 0
@@ -2439,10 +2467,10 @@ instances:
 - url: https://searx.zhenyapav.com/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 822
+  response_ms: 1213
   http_status: 0
   json_api: false
   result_count: 0
@@ -2451,65 +2479,32 @@ instances:
 - url: https://sx.thatxtreme.dev/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 2133
+  response_ms: 4511
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno -2] Name or service not known>
-- url: https://search.datura.network/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 3549
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: https://searx.techsaviours.org/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 4407
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -2] Name or service not known>
-- url: https://s.trung.fun/
-  sources:
-  - instancescores
-  tested: '2026-05-26'
-  status: down
-  category: offline
-  response_ms: 10066
-  http_status: 0
-  json_api: false
-  result_count: 0
-  error: <urlopen error [Errno -3] Temporary failure in name resolution>
 - url: https://searxng.hweeren.com/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 10151
+  response_ms: 10180
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error timed out>
-- url: https://search.nordh.tech/
+- url: https://searxng.ch/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 10222
+  response_ms: 10190
   http_status: 0
   json_api: false
   result_count: 0
@@ -2517,32 +2512,38 @@ instances:
 - url: https://search.us.projectsegfau.lt/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 10286
+  response_ms: 10487
   http_status: 0
   json_api: false
   result_count: 0
   error: <urlopen error [Errno 101] Network is unreachable>
-- url: https://searxng.ch/
+- url: https://searx.mv-software.de/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 10335
+  response_ms: 11002
   http_status: 0
   json_api: false
   result_count: 0
-  error: <urlopen error timed out>
+  engines:
+  - qwant
+  - google
+  - wikipedia
+  - startpage
+  - duckduckgo
+  error: '<urlopen error _ssl.c:999: The handshake operation timed out>'
 - url: https://searxng.ca/
   sources:
   - instancescores
-  tested: '2026-05-26'
+  tested: '2026-05-27'
   status: down
   category: offline
-  response_ms: 20109
+  response_ms: 20103
   http_status: 0
   json_api: false
   result_count: 0
