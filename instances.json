@@ -1,1591 +1,1591 @@
 [
   {
-    "url": "https://monocles.de/",
-    "category": "full-json",
-    "response_ms": 1512,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
     "url": "https://serxng-deployment-production.up.railway.app/",
     "category": "full-json",
-    "response_ms": 3614,
-    "tested": "2026-05-31",
+    "response_ms": 979,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
-    "url": "https://searx.mv-software.de/",
+    "url": "https://monocles.de/",
     "category": "full-json",
-    "response_ms": 4571,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://nyc1.sx.ggtyler.dev/",
-    "category": "html-only",
-    "response_ms": 326,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://sx.catgirl.cloud/",
-    "category": "html-only",
-    "response_ms": 351,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://sx.catgirl.cloud",
-    "category": "html-only",
-    "response_ms": 354,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://searxng.shreven.org",
-    "category": "html-only",
-    "response_ms": 371,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://searxng.shreven.org/",
-    "category": "html-only",
-    "response_ms": 371,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://search.nordh.tech/",
-    "category": "html-only",
-    "response_ms": 378,
-    "tested": "2026-05-31",
+    "response_ms": 1481,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://search.hbubli.cc/",
     "category": "html-only",
-    "response_ms": 389,
-    "tested": "2026-05-31",
+    "response_ms": 348,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://nyc1.sx.ggtyler.dev/",
+    "category": "html-only",
+    "response_ms": 351,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://search.hbubli.cc",
     "category": "html-only",
-    "response_ms": 393,
-    "tested": "2026-05-31",
+    "response_ms": 351,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.shreven.org",
+    "category": "html-only",
+    "response_ms": 369,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://searxng.shreven.org/",
+    "category": "html-only",
+    "response_ms": 372,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://sx.catgirl.cloud",
+    "category": "html-only",
+    "response_ms": 409,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://sx.catgirl.cloud/",
+    "category": "html-only",
+    "response_ms": 433,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://search.privacyredirect.com/",
     "category": "html-only",
-    "response_ms": 416,
-    "tested": "2026-05-31",
+    "response_ms": 472,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
-    "url": "https://search.privacyredirect.com",
+    "url": "https://search.nordh.tech/",
     "category": "html-only",
-    "response_ms": 472,
-    "tested": "2026-05-31",
+    "response_ms": 485,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://searxng.canine.tools/",
     "category": "not-searxng",
-    "response_ms": 56,
-    "tested": "2026-05-31",
+    "response_ms": 63,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://searxng.canine.tools",
     "category": "not-searxng",
-    "response_ms": 86,
-    "tested": "2026-05-31",
+    "response_ms": 66,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://searx.work/",
     "category": "not-searxng",
-    "response_ms": 104,
-    "tested": "2026-05-31",
+    "response_ms": 91,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://searxng.online/",
     "category": "not-searxng",
-    "response_ms": 110,
-    "tested": "2026-05-31",
+    "response_ms": 132,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://search.datenkrake.ch/",
+    "category": "not-searxng",
+    "response_ms": 331,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://search.fredix.xyz/",
     "category": "not-searxng",
-    "response_ms": 424,
-    "tested": "2026-05-31",
+    "response_ms": 333,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://search.datenkrake.ch",
+    "category": "not-searxng",
+    "response_ms": 338,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://nogoo.me/",
     "category": "not-searxng",
-    "response_ms": 485,
-    "tested": "2026-05-31",
-    "status": "up"
-  },
-  {
-    "url": "https://search.in.projectsegfau.lt/",
-    "category": "not-searxng",
-    "response_ms": 859,
-    "tested": "2026-05-31",
+    "response_ms": 480,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://search.projectsegfau.lt/",
     "category": "not-searxng",
-    "response_ms": 924,
-    "tested": "2026-05-31",
+    "response_ms": 833,
+    "tested": "2026-06-01",
+    "status": "up"
+  },
+  {
+    "url": "https://search.in.projectsegfau.lt/",
+    "category": "not-searxng",
+    "response_ms": 964,
+    "tested": "2026-06-01",
     "status": "up"
   },
   {
     "url": "https://fairsuch.net/",
     "category": "not-searxng",
-    "response_ms": 1234,
-    "tested": "2026-05-31",
+    "response_ms": 1162,
+    "tested": "2026-06-01",
     "status": "up"
-  },
-  {
-    "url": "https://searx.party/",
-    "category": "http-error",
-    "response_ms": 70,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.sev.monster",
-    "category": "http-error",
-    "response_ms": 100,
-    "tested": "2026-05-31",
-    "status": "down"
   },
   {
     "url": "https://searxng2api.svia.workers.dev/",
     "category": "http-error",
-    "response_ms": 104,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.fmhy.net/",
-    "category": "http-error",
-    "response_ms": 134,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.neocities.org/",
-    "category": "http-error",
-    "response_ms": 143,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://etsi.me",
-    "category": "http-error",
-    "response_ms": 181,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.colbster937.dev/",
-    "category": "http-error",
-    "response_ms": 182,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.party",
-    "category": "http-error",
-    "response_ms": 186,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.chocolatemoo53.com/",
-    "category": "http-error",
-    "response_ms": 189,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.ankha.ac/",
-    "category": "http-error",
-    "response_ms": 195,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://seek.fyi/",
-    "category": "http-error",
-    "response_ms": 196,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://etsi.me/",
-    "category": "http-error",
-    "response_ms": 201,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://baresearch.org/",
-    "category": "http-error",
-    "response_ms": 202,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.2b9t.xyz/",
-    "category": "http-error",
-    "response_ms": 204,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.femboy.ad/",
-    "category": "http-error",
-    "response_ms": 211,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.2b9t.xyz",
-    "category": "http-error",
-    "response_ms": 237,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.femboy.ad",
-    "category": "http-error",
-    "response_ms": 239,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://www.cloudsearch.me/",
-    "category": "http-error",
-    "response_ms": 242,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.chocolatemoo53.com",
-    "category": "http-error",
-    "response_ms": 249,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.abohiccups.com/",
-    "category": "http-error",
-    "response_ms": 256,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://ooglester.com",
-    "category": "http-error",
-    "response_ms": 273,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://sxng.violets-purgatory.dev/",
-    "category": "http-error",
-    "response_ms": 275,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://ooglester.com/",
-    "category": "http-error",
-    "response_ms": 301,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.rhscz.eu/",
-    "category": "http-error",
-    "response_ms": 302,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.einfachzocken.eu",
-    "category": "http-error",
-    "response_ms": 304,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.dresden.network/",
-    "category": "http-error",
-    "response_ms": 304,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.serpensin.com",
-    "category": "http-error",
-    "response_ms": 307,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.mdosch.de/",
-    "category": "http-error",
-    "response_ms": 309,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.tiekoetter.com/",
-    "category": "http-error",
-    "response_ms": 311,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://xo.wtf/",
-    "category": "http-error",
-    "response_ms": 311,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.leptons.xyz/",
-    "category": "http-error",
-    "response_ms": 314,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.undertale.uk/",
-    "category": "http-error",
-    "response_ms": 317,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.namejeff.xyz",
-    "category": "http-error",
-    "response_ms": 318,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.sapti.me/",
-    "category": "http-error",
-    "response_ms": 320,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://baresearch.org",
-    "category": "http-error",
-    "response_ms": 324,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://grep.vim.wtf/",
-    "category": "http-error",
-    "response_ms": 326,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.serpensin.com/",
-    "category": "http-error",
-    "response_ms": 327,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://failsearx.culturanerd.it/",
-    "category": "http-error",
-    "response_ms": 331,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.tsmdt.de/",
-    "category": "http-error",
-    "response_ms": 331,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://www.gruble.de/",
-    "category": "http-error",
-    "response_ms": 332,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.site",
-    "category": "http-error",
-    "response_ms": 334,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.url4irl.com/",
-    "category": "http-error",
-    "response_ms": 335,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.blablalinux.be/",
-    "category": "http-error",
-    "response_ms": 338,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.oloke.xyz/",
-    "category": "http-error",
-    "response_ms": 340,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.tuxcloud.net/",
-    "category": "http-error",
-    "response_ms": 340,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.namejeff.xyz/",
-    "category": "http-error",
-    "response_ms": 341,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.inetol.net/",
-    "category": "http-error",
-    "response_ms": 349,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.lunar.icu/",
-    "category": "http-error",
-    "response_ms": 352,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.zina.dev/",
-    "category": "http-error",
-    "response_ms": 354,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.ankha.ac",
-    "category": "http-error",
-    "response_ms": 356,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.rhscz.eu/",
-    "category": "http-error",
-    "response_ms": 361,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.deggo.fyi/",
-    "category": "http-error",
-    "response_ms": 363,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.website/",
-    "category": "http-error",
-    "response_ms": 364,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ctq.ro/",
-    "category": "http-error",
-    "response_ms": 366,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://find.xenorio.xyz/",
-    "category": "http-error",
-    "response_ms": 377,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.fishfvch.com/",
-    "category": "http-error",
-    "response_ms": 382,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.fishfvch.com",
-    "category": "http-error",
-    "response_ms": 385,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://find.xenorio.xyz",
-    "category": "http-error",
-    "response_ms": 390,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.pi.vps.pw/",
-    "category": "http-error",
-    "response_ms": 397,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.zina.dev",
-    "category": "http-error",
-    "response_ms": 400,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.im-in.space/",
-    "category": "http-error",
-    "response_ms": 401,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.pereira.is/",
-    "category": "http-error",
-    "response_ms": 406,
-    "tested": "2026-05-31",
+    "response_ms": 83,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://seek.fyi",
     "category": "http-error",
-    "response_ms": 407,
-    "tested": "2026-05-31",
+    "response_ms": 99,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://www.cloudsearch.me/",
+    "category": "http-error",
+    "response_ms": 107,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.colbster937.dev/",
+    "category": "http-error",
+    "response_ms": 135,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://searx.sev.monster/",
     "category": "http-error",
-    "response_ms": 411,
-    "tested": "2026-05-31",
+    "response_ms": 139,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.im-in.space",
+    "url": "https://seek.fyi/",
     "category": "http-error",
-    "response_ms": 414,
-    "tested": "2026-05-31",
+    "response_ms": 140,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.pi.vps.pw",
+    "url": "https://search.chocolatemoo53.com",
     "category": "http-error",
-    "response_ms": 418,
-    "tested": "2026-05-31",
+    "response_ms": 149,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.wdpserver.com",
+    "url": "https://searx.fmhy.net/",
     "category": "http-error",
-    "response_ms": 418,
-    "tested": "2026-05-31",
+    "response_ms": 153,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://paulgo.io",
+    "url": "https://baresearch.org",
     "category": "http-error",
-    "response_ms": 424,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://kantan.cat",
-    "category": "http-error",
-    "response_ms": 427,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ctq.ro",
-    "category": "http-error",
-    "response_ms": 428,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.gr/",
-    "category": "http-error",
-    "response_ms": 429,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.redgarden.cv",
-    "category": "http-error",
-    "response_ms": 435,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.ro",
-    "category": "http-error",
-    "response_ms": 437,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.cups.moe/",
-    "category": "http-error",
-    "response_ms": 437,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.website",
-    "category": "http-error",
-    "response_ms": 437,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.redgarden.cv/",
-    "category": "http-error",
-    "response_ms": 438,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.url4irl.com",
-    "category": "http-error",
-    "response_ms": 441,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.site/",
-    "category": "http-error",
-    "response_ms": 443,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.seddens.net/",
-    "category": "http-error",
-    "response_ms": 445,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.ro/",
-    "category": "http-error",
-    "response_ms": 456,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.gdebest.net/",
-    "category": "http-error",
-    "response_ms": 456,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.gdebest.net",
-    "category": "http-error",
-    "response_ms": 457,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.tsmdt.de",
-    "category": "http-error",
-    "response_ms": 469,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.bladerunn.in/",
-    "category": "http-error",
-    "response_ms": 473,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.baczek.me/",
-    "category": "http-error",
-    "response_ms": 473,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ethibox.fr/",
-    "category": "http-error",
-    "response_ms": 482,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.mdosch.de",
-    "category": "http-error",
-    "response_ms": 483,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.brihx.fr/",
-    "category": "http-error",
-    "response_ms": 489,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.internetsucks.net",
-    "category": "http-error",
-    "response_ms": 492,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.tiekoetter.com",
-    "category": "http-error",
-    "response_ms": 492,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.oloke.xyz",
-    "category": "http-error",
-    "response_ms": 493,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.deggo.fyi",
-    "category": "http-error",
-    "response_ms": 496,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.wdpserver.com/",
-    "category": "http-error",
-    "response_ms": 502,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.mbuf.net/",
-    "category": "http-error",
-    "response_ms": 507,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.bladerunn.in",
-    "category": "http-error",
-    "response_ms": 514,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.mbuf.net",
-    "category": "http-error",
-    "response_ms": 514,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.mxchange.org",
-    "category": "http-error",
-    "response_ms": 523,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.pereira.is",
-    "category": "http-error",
-    "response_ms": 524,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.cups.moe",
-    "category": "http-error",
-    "response_ms": 526,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://kantan.cat/",
-    "category": "http-error",
-    "response_ms": 529,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.indst.eu",
-    "category": "http-error",
-    "response_ms": 534,
-    "tested": "2026-05-31",
+    "response_ms": 155,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://search.abohiccups.com",
     "category": "http-error",
-    "response_ms": 535,
-    "tested": "2026-05-31",
+    "response_ms": 158,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.fuckoffgoogle.net/",
+    "url": "https://searx.neocities.org/",
     "category": "http-error",
-    "response_ms": 538,
-    "tested": "2026-05-31",
+    "response_ms": 169,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://failsearx.culturanerd.it",
+    "url": "https://searx.party",
     "category": "http-error",
-    "response_ms": 539,
-    "tested": "2026-05-31",
+    "response_ms": 172,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://searx.tuxcloud.net",
+    "url": "https://searx.ankha.ac",
     "category": "http-error",
-    "response_ms": 545,
-    "tested": "2026-05-31",
+    "response_ms": 192,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://www.jabber-germany.de/searx",
+    "url": "https://xo.wtf/",
     "category": "http-error",
-    "response_ms": 549,
-    "tested": "2026-05-31",
+    "response_ms": 193,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.rowie.at",
+    "url": "https://search.femboy.ad",
     "category": "http-error",
-    "response_ms": 553,
-    "tested": "2026-05-31",
+    "response_ms": 195,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.einfachzocken.eu/",
+    "url": "https://sxng.violets-purgatory.dev/",
     "category": "http-error",
-    "response_ms": 554,
-    "tested": "2026-05-31",
+    "response_ms": 224,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.catboy.house",
+    "url": "https://search.2b9t.xyz",
     "category": "http-error",
-    "response_ms": 558,
-    "tested": "2026-05-31",
+    "response_ms": 235,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.catboy.house/",
+    "url": "https://etsi.me/",
     "category": "http-error",
-    "response_ms": 569,
-    "tested": "2026-05-31",
+    "response_ms": 246,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://searx.dresden.network",
+    "url": "https://search.abohiccups.com/",
     "category": "http-error",
-    "response_ms": 573,
-    "tested": "2026-05-31",
+    "response_ms": 248,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://searxng.blablalinux.be",
+    "url": "https://search.femboy.ad/",
     "category": "http-error",
-    "response_ms": 583,
-    "tested": "2026-05-31",
+    "response_ms": 255,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.indst.eu/",
+    "url": "https://ooglester.com/",
     "category": "http-error",
-    "response_ms": 588,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://paulgo.io/",
-    "category": "http-error",
-    "response_ms": 627,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.unredacted.org/",
-    "category": "http-error",
-    "response_ms": 627,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.rowie.at/",
-    "category": "http-error",
-    "response_ms": 628,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.rhscz.eu",
-    "category": "http-error",
-    "response_ms": 632,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.perennialte.ch",
-    "category": "http-error",
-    "response_ms": 635,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.gr",
-    "category": "http-error",
-    "response_ms": 636,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://www.gruble.de",
-    "category": "http-error",
-    "response_ms": 638,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.anoni.net",
-    "category": "http-error",
-    "response_ms": 639,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.rhscz.eu",
-    "category": "http-error",
-    "response_ms": 639,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.rajimayur.me",
-    "category": "http-error",
-    "response_ms": 642,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.sapti.me",
-    "category": "http-error",
-    "response_ms": 644,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.unredacted.org",
-    "category": "http-error",
-    "response_ms": 645,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.thefloatinglab.world/",
-    "category": "http-error",
-    "response_ms": 652,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://priv.au/",
-    "category": "http-error",
-    "response_ms": 665,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.rajimayur.me/",
-    "category": "http-error",
-    "response_ms": 669,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.inetol.net",
-    "category": "http-error",
-    "response_ms": 685,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://grep.vim.wtf",
-    "category": "http-error",
-    "response_ms": 689,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ononoki.org",
-    "category": "http-error",
-    "response_ms": 714,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.anoni.net/",
-    "category": "http-error",
-    "response_ms": 731,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://opnxng.com",
-    "category": "http-error",
-    "response_ms": 735,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://darmarit.org/searx",
-    "category": "http-error",
-    "response_ms": 736,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ethibox.fr",
-    "category": "http-error",
-    "response_ms": 736,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://opnxng.com/",
-    "category": "http-error",
-    "response_ms": 752,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.perennialte.ch/",
-    "category": "http-error",
-    "response_ms": 774,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.mxchange.org/",
-    "category": "http-error",
-    "response_ms": 793,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.juancord.xyz/",
-    "category": "http-error",
-    "response_ms": 838,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://priv.au",
-    "category": "http-error",
-    "response_ms": 902,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.seddens.net",
-    "category": "http-error",
-    "response_ms": 906,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ononoki.org/",
-    "category": "http-error",
-    "response_ms": 915,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.internetsucks.net/",
-    "category": "http-error",
-    "response_ms": 1081,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://s.trung.fun/",
-    "category": "http-error",
-    "response_ms": 1125,
-    "tested": "2026-05-31",
+    "response_ms": 271,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://search.undertale.uk",
     "category": "http-error",
-    "response_ms": 1405,
-    "tested": "2026-05-31",
+    "response_ms": 293,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.minus27315.dev",
+    "url": "https://searxng.cups.moe/",
     "category": "http-error",
-    "response_ms": 3336,
-    "tested": "2026-05-31",
+    "response_ms": 294,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://etsi.me",
+    "category": "http-error",
+    "response_ms": 299,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.dresden.network",
+    "category": "http-error",
+    "response_ms": 304,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.inetol.net",
+    "category": "http-error",
+    "response_ms": 305,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.sapti.me",
+    "category": "http-error",
+    "response_ms": 305,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.einfachzocken.eu/",
+    "category": "http-error",
+    "response_ms": 309,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.2b9t.xyz/",
+    "category": "http-error",
+    "response_ms": 312,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://grep.vim.wtf",
+    "category": "http-error",
+    "response_ms": 313,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.rhscz.eu",
+    "category": "http-error",
+    "response_ms": 317,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.namejeff.xyz/",
+    "category": "http-error",
+    "response_ms": 319,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.rhscz.eu",
+    "category": "http-error",
+    "response_ms": 320,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.lunar.icu/",
+    "category": "http-error",
+    "response_ms": 320,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.party/",
+    "category": "http-error",
+    "response_ms": 322,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://ooglester.com",
+    "category": "http-error",
+    "response_ms": 323,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.mdosch.de",
+    "category": "http-error",
+    "response_ms": 323,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.tuxcloud.net",
+    "category": "http-error",
+    "response_ms": 325,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.tiekoetter.com",
+    "category": "http-error",
+    "response_ms": 327,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.rhscz.eu/",
+    "category": "http-error",
+    "response_ms": 328,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ctq.ro",
+    "category": "http-error",
+    "response_ms": 329,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.leptons.xyz/",
+    "category": "http-error",
+    "response_ms": 331,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.chocolatemoo53.com/",
+    "category": "http-error",
+    "response_ms": 335,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://www.gruble.de",
+    "category": "http-error",
+    "response_ms": 335,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://failsearx.culturanerd.it",
+    "category": "http-error",
+    "response_ms": 337,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.namejeff.xyz",
+    "category": "http-error",
+    "response_ms": 342,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.blablalinux.be",
+    "category": "http-error",
+    "response_ms": 344,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://grep.vim.wtf/",
+    "category": "http-error",
+    "response_ms": 347,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.url4irl.com",
+    "category": "http-error",
+    "response_ms": 355,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.zina.dev",
+    "category": "http-error",
+    "response_ms": 356,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.mxchange.org/",
+    "category": "http-error",
+    "response_ms": 362,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.deggo.fyi/",
+    "category": "http-error",
+    "response_ms": 364,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.rhscz.eu/",
+    "category": "http-error",
+    "response_ms": 367,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.im-in.space",
+    "category": "http-error",
+    "response_ms": 370,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.oloke.xyz",
+    "category": "http-error",
+    "response_ms": 373,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.pi.vps.pw",
+    "category": "http-error",
+    "response_ms": 376,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.indst.eu/",
+    "category": "http-error",
+    "response_ms": 387,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.serpensin.com/",
+    "category": "http-error",
+    "response_ms": 387,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.deggo.fyi",
+    "category": "http-error",
+    "response_ms": 387,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.indst.eu",
+    "category": "http-error",
+    "response_ms": 395,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.zina.dev/",
+    "category": "http-error",
+    "response_ms": 399,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.website",
+    "category": "http-error",
+    "response_ms": 399,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.pereira.is",
+    "category": "http-error",
+    "response_ms": 403,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.rowie.at/",
+    "category": "http-error",
+    "response_ms": 404,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://find.xenorio.xyz/",
+    "category": "http-error",
+    "response_ms": 408,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.url4irl.com/",
+    "category": "http-error",
+    "response_ms": 409,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://paulgo.io/",
+    "category": "http-error",
+    "response_ms": 416,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.mbuf.net",
+    "category": "http-error",
+    "response_ms": 418,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.wdpserver.com/",
+    "category": "http-error",
+    "response_ms": 420,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.website/",
+    "category": "http-error",
+    "response_ms": 425,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.serpensin.com",
+    "category": "http-error",
+    "response_ms": 427,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.im-in.space/",
+    "category": "http-error",
+    "response_ms": 429,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://baresearch.org/",
+    "category": "http-error",
+    "response_ms": 431,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.site",
+    "category": "http-error",
+    "response_ms": 435,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://kantan.cat/",
+    "category": "http-error",
+    "response_ms": 439,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://find.xenorio.xyz",
+    "category": "http-error",
+    "response_ms": 441,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.tuxcloud.net/",
+    "category": "http-error",
+    "response_ms": 443,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://paulgo.io",
+    "category": "http-error",
+    "response_ms": 445,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.ro",
+    "category": "http-error",
+    "response_ms": 450,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.mbuf.net/",
+    "category": "http-error",
+    "response_ms": 452,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.sapti.me/",
+    "category": "http-error",
+    "response_ms": 453,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.fishfvch.com",
+    "category": "http-error",
+    "response_ms": 455,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://failsearx.culturanerd.it/",
+    "category": "http-error",
+    "response_ms": 457,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.pereira.is/",
+    "category": "http-error",
+    "response_ms": 457,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.pi.vps.pw/",
+    "category": "http-error",
+    "response_ms": 465,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ethibox.fr",
+    "category": "http-error",
+    "response_ms": 466,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.oloke.xyz/",
+    "category": "http-error",
+    "response_ms": 469,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.rowie.at",
+    "category": "http-error",
+    "response_ms": 470,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.gr",
+    "category": "http-error",
+    "response_ms": 472,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.fishfvch.com/",
+    "category": "http-error",
+    "response_ms": 477,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.site/",
+    "category": "http-error",
+    "response_ms": 480,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.cups.moe",
+    "category": "http-error",
+    "response_ms": 486,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.ro/",
+    "category": "http-error",
+    "response_ms": 489,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.thefloatinglab.world/",
+    "category": "http-error",
+    "response_ms": 493,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ctq.ro/",
+    "category": "http-error",
+    "response_ms": 498,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.baczek.me/",
+    "category": "http-error",
+    "response_ms": 498,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.gdebest.net",
+    "category": "http-error",
+    "response_ms": 500,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.tsmdt.de",
+    "category": "http-error",
+    "response_ms": 505,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.juancord.xyz/",
+    "category": "http-error",
+    "response_ms": 506,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.bladerunn.in",
+    "category": "http-error",
+    "response_ms": 509,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://kantan.cat",
+    "category": "http-error",
+    "response_ms": 511,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.blablalinux.be/",
+    "category": "http-error",
+    "response_ms": 522,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.redgarden.cv/",
+    "category": "http-error",
+    "response_ms": 533,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.wdpserver.com",
+    "category": "http-error",
+    "response_ms": 541,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.einfachzocken.eu",
+    "category": "http-error",
+    "response_ms": 567,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.gdebest.net/",
+    "category": "http-error",
+    "response_ms": 579,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.fuckoffgoogle.net/",
+    "category": "http-error",
+    "response_ms": 586,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.perennialte.ch/",
+    "category": "http-error",
+    "response_ms": 597,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.catboy.house/",
+    "category": "http-error",
+    "response_ms": 615,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.sev.monster",
+    "category": "http-error",
+    "response_ms": 618,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.ankha.ac/",
+    "category": "http-error",
+    "response_ms": 619,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://www.gruble.de/",
+    "category": "http-error",
+    "response_ms": 627,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.seddens.net",
+    "category": "http-error",
+    "response_ms": 633,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.brihx.fr/",
+    "category": "http-error",
+    "response_ms": 636,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.bladerunn.in/",
+    "category": "http-error",
+    "response_ms": 639,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://darmarit.org/searx",
+    "category": "http-error",
+    "response_ms": 641,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.redgarden.cv",
+    "category": "http-error",
+    "response_ms": 643,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.privacyredirect.com",
+    "category": "http-error",
+    "response_ms": 677,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.seddens.net/",
+    "category": "http-error",
+    "response_ms": 688,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.catboy.house",
+    "category": "http-error",
+    "response_ms": 691,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://priv.au",
+    "category": "http-error",
+    "response_ms": 692,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.tsmdt.de/",
+    "category": "http-error",
+    "response_ms": 711,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://opnxng.com/",
+    "category": "http-error",
+    "response_ms": 719,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.rajimayur.me/",
+    "category": "http-error",
+    "response_ms": 724,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.perennialte.ch",
+    "category": "http-error",
+    "response_ms": 733,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ethibox.fr/",
+    "category": "http-error",
+    "response_ms": 736,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.internetsucks.net/",
+    "category": "http-error",
+    "response_ms": 737,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.inetol.net/",
+    "category": "http-error",
+    "response_ms": 745,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.tiekoetter.com/",
+    "category": "http-error",
+    "response_ms": 746,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.unredacted.org",
+    "category": "http-error",
+    "response_ms": 751,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ononoki.org/",
+    "category": "http-error",
+    "response_ms": 760,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.rajimayur.me",
+    "category": "http-error",
+    "response_ms": 761,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://opnxng.com",
+    "category": "http-error",
+    "response_ms": 763,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.anoni.net",
+    "category": "http-error",
+    "response_ms": 765,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.anoni.net/",
+    "category": "http-error",
+    "response_ms": 786,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.unredacted.org/",
+    "category": "http-error",
+    "response_ms": 788,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.gr/",
+    "category": "http-error",
+    "response_ms": 791,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.mdosch.de/",
+    "category": "http-error",
+    "response_ms": 799,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.mxchange.org",
+    "category": "http-error",
+    "response_ms": 810,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://www.jabber-germany.de/searx",
+    "category": "http-error",
+    "response_ms": 833,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.dresden.network/",
+    "category": "http-error",
+    "response_ms": 857,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ononoki.org",
+    "category": "http-error",
+    "response_ms": 912,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://priv.au/",
+    "category": "http-error",
+    "response_ms": 1010,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.internetsucks.net",
+    "category": "http-error",
+    "response_ms": 1088,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://s.trung.fun/",
+    "category": "http-error",
+    "response_ms": 1094,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.undertale.uk/",
+    "category": "http-error",
+    "response_ms": 1808,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://search.minus27315.dev/",
     "category": "http-error",
-    "response_ms": 3360,
-    "tested": "2026-05-31",
+    "response_ms": 3337,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion",
-    "category": "offline",
-    "response_ms": 7,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
-    "category": "offline",
-    "response_ms": 9,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion/",
-    "category": "offline",
-    "response_ms": 9,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
-    "category": "offline",
-    "response_ms": 22,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion/",
-    "category": "offline",
-    "response_ms": 22,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion/",
-    "category": "offline",
-    "response_ms": 25,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
-    "category": "offline",
-    "response_ms": 27,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
-    "category": "offline",
-    "response_ms": 44,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://vanderwilhelm.me/",
-    "category": "offline",
-    "response_ms": 51,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion",
-    "category": "offline",
-    "response_ms": 73,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searxng.linuxchad.win/",
-    "category": "offline",
-    "response_ms": 75,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion/",
-    "category": "offline",
-    "response_ms": 77,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
-    "category": "offline",
-    "response_ms": 92,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.nadeko.net/",
-    "category": "offline",
-    "response_ms": 95,
-    "tested": "2026-05-31",
+    "url": "https://search.minus27315.dev",
+    "category": "http-error",
+    "response_ms": 3366,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion/",
     "category": "offline",
-    "response_ms": 105,
-    "tested": "2026-05-31",
+    "response_ms": 11,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
+    "category": "offline",
+    "response_ms": 13,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
+    "category": "offline",
+    "response_ms": 13,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion/",
     "category": "offline",
-    "response_ms": 107,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.aleteoryx.me/",
-    "category": "offline",
-    "response_ms": 116,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.bus-hit.me/",
-    "category": "offline",
-    "response_ms": 118,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://skyrimhater.com/",
-    "category": "offline",
-    "response_ms": 118,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion",
-    "category": "offline",
-    "response_ms": 129,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.ldne.xyz/",
-    "category": "offline",
-    "response_ms": 131,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion/",
-    "category": "offline",
-    "response_ms": 132,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion/",
-    "category": "offline",
-    "response_ms": 138,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/",
-    "category": "offline",
-    "response_ms": 161,
-    "tested": "2026-05-31",
+    "response_ms": 15,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion",
     "category": "offline",
-    "response_ms": 174,
-    "tested": "2026-05-31",
+    "response_ms": 17,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.incogniweb.net/",
+    "url": "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion",
     "category": "offline",
-    "response_ms": 184,
-    "tested": "2026-05-31",
+    "response_ms": 20,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.demoniak.ch/",
+    "url": "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion/",
     "category": "offline",
-    "response_ms": 188,
-    "tested": "2026-05-31",
+    "response_ms": 21,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.ngn.tf/",
+    "url": "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion/",
     "category": "offline",
-    "response_ms": 202,
-    "tested": "2026-05-31",
+    "response_ms": 27,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://sx.zorby.top/",
+    "url": "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
     "category": "offline",
-    "response_ms": 203,
-    "tested": "2026-05-31",
+    "response_ms": 30,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://searx.oakleycord.dev/",
+    "url": "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
     "category": "offline",
-    "response_ms": 208,
-    "tested": "2026-05-31",
+    "response_ms": 34,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.tommy-tran.com/",
+    "url": "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
     "category": "offline",
-    "response_ms": 215,
-    "tested": "2026-05-31",
+    "response_ms": 42,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://searx.ox2.fr/",
+    "url": "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion/",
     "category": "offline",
-    "response_ms": 224,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.catfluori.de/",
-    "category": "offline",
-    "response_ms": 229,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://copp.gg/",
-    "category": "offline",
-    "response_ms": 267,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://copp.gg",
-    "category": "offline",
-    "response_ms": 291,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.smnz.de/",
-    "category": "offline",
-    "response_ms": 330,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.blitzw.in/",
-    "category": "offline",
-    "response_ms": 359,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.fr3ak.xyz/",
-    "category": "offline",
-    "response_ms": 371,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.datura.network/",
-    "category": "offline",
-    "response_ms": 374,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.techsaviours.org/",
-    "category": "offline",
-    "response_ms": 384,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.dotone.nl/",
-    "category": "offline",
-    "response_ms": 416,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://search.nerdvpn.de/",
-    "category": "offline",
-    "response_ms": 480,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.electroncash.de/",
-    "category": "offline",
-    "response_ms": 481,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.foss.family/",
-    "category": "offline",
-    "response_ms": 506,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.ox2.fr",
-    "category": "offline",
-    "response_ms": 508,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.daetalytica.io/",
-    "category": "offline",
-    "response_ms": 516,
-    "tested": "2026-05-31",
+    "response_ms": 50,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://sx.ca.zorby.top/",
     "category": "offline",
-    "response_ms": 517,
-    "tested": "2026-05-31",
+    "response_ms": 56,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.charliewhiskey.net/",
+    "url": "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion",
     "category": "offline",
-    "response_ms": 547,
-    "tested": "2026-05-31",
+    "response_ms": 62,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.incogniweb.net/",
+    "category": "offline",
+    "response_ms": 66,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion/",
+    "category": "offline",
+    "response_ms": 69,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.demoniak.ch/",
+    "category": "offline",
+    "response_ms": 72,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.aleteoryx.me/",
+    "category": "offline",
+    "response_ms": 86,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion",
+    "category": "offline",
+    "response_ms": 87,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/",
+    "category": "offline",
+    "response_ms": 88,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion/",
+    "category": "offline",
+    "response_ms": 108,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion/",
+    "category": "offline",
+    "response_ms": 113,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ldne.xyz/",
+    "category": "offline",
+    "response_ms": 113,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.tommy-tran.com/",
+    "category": "offline",
+    "response_ms": 129,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.nadeko.net/",
+    "category": "offline",
+    "response_ms": 132,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://skyrimhater.com/",
+    "category": "offline",
+    "response_ms": 134,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.ngn.tf/",
+    "category": "offline",
+    "response_ms": 139,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.ox2.fr",
+    "category": "offline",
+    "response_ms": 165,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://sx.zorby.top/",
+    "category": "offline",
+    "response_ms": 171,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.dotone.nl/",
+    "category": "offline",
+    "response_ms": 204,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://vanderwilhelm.me/",
+    "category": "offline",
+    "response_ms": 218,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.foss.family/",
+    "category": "offline",
+    "response_ms": 219,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.oakleycord.dev/",
+    "category": "offline",
+    "response_ms": 232,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.datura.network/",
+    "category": "offline",
+    "response_ms": 236,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.daetalytica.io/",
+    "category": "offline",
+    "response_ms": 251,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.ox2.fr/",
+    "category": "offline",
+    "response_ms": 260,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.blitzw.in/",
+    "category": "offline",
+    "response_ms": 263,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searxng.linuxchad.win/",
+    "category": "offline",
+    "response_ms": 264,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.fr3ak.xyz/",
+    "category": "offline",
+    "response_ms": 266,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.bus-hit.me/",
+    "category": "offline",
+    "response_ms": 268,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.techsaviours.org/",
+    "category": "offline",
+    "response_ms": 288,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.catfluori.de/",
+    "category": "offline",
+    "response_ms": 292,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.nerdvpn.de/",
+    "category": "offline",
+    "response_ms": 293,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.electroncash.de/",
+    "category": "offline",
+    "response_ms": 299,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://copp.gg/",
+    "category": "offline",
+    "response_ms": 300,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://copp.gg",
+    "category": "offline",
+    "response_ms": 309,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://searx.ari.lt/",
     "category": "offline",
-    "response_ms": 612,
-    "tested": "2026-05-31",
+    "response_ms": 328,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://northboot.xyz/",
     "category": "offline",
-    "response_ms": 663,
-    "tested": "2026-05-31",
+    "response_ms": 331,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.datenkrake.ch",
+    "url": "https://search.charliewhiskey.net/",
     "category": "offline",
-    "response_ms": 776,
-    "tested": "2026-05-31",
+    "response_ms": 375,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.datenkrake.ch/",
+    "url": "https://search.smnz.de/",
     "category": "offline",
-    "response_ms": 776,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://searx.zhenyapav.com/",
-    "category": "offline",
-    "response_ms": 875,
-    "tested": "2026-05-31",
-    "status": "down"
-  },
-  {
-    "url": "https://sx.thatxtreme.dev/",
-    "category": "offline",
-    "response_ms": 2023,
-    "tested": "2026-05-31",
+    "response_ms": 394,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://searxng.hweeren.com/",
     "category": "offline",
-    "response_ms": 10075,
-    "tested": "2026-05-31",
+    "response_ms": 625,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
-    "url": "https://search.us.projectsegfau.lt/",
+    "url": "https://searx.zhenyapav.com/",
     "category": "offline",
-    "response_ms": 10158,
-    "tested": "2026-05-31",
+    "response_ms": 707,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://sx.thatxtreme.dev/",
+    "category": "offline",
+    "response_ms": 2105,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://searxng.ch/",
     "category": "offline",
-    "response_ms": 10446,
-    "tested": "2026-05-31",
+    "response_ms": 10282,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://search.us.projectsegfau.lt/",
+    "category": "offline",
+    "response_ms": 10284,
+    "tested": "2026-06-01",
+    "status": "down"
+  },
+  {
+    "url": "https://searx.mv-software.de/",
+    "category": "offline",
+    "response_ms": 11143,
+    "tested": "2026-06-01",
     "status": "down"
   },
   {
     "url": "https://searxng.ca/",
     "category": "offline",
-    "response_ms": 20082,
-    "tested": "2026-05-31",
+    "response_ms": 20114,
+    "tested": "2026-06-01",
     "status": "down"
   }
 ]
